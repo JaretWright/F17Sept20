@@ -10,7 +10,14 @@ public class FetchHeadlines {
     public static void main(String[] args)
     {
         String worldNews = askHeadLine("world news");
-        System.out.printf("The world news headline is %s", worldNews);
+        System.out.printf("The world news headline is %s%n", worldNews);
+        
+        System.out.printf("%nThe sports headline is %s%n", askHeadLine("sports"));
+        System.out.printf("%nThe politics headline is %s%n", askHeadLine("politics"));
+        System.out.printf("%nThe entertainment headline is %s%n", askHeadLine("entertainment"));
+        
+        
+        
     }
     
     /**
